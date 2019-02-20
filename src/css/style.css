@@ -143,7 +143,7 @@ on les re-dimensionnera pour qu'elle prennent la col-12 de la taille du écran c
     color: white;
     position: absolute;
     left: 29%;
-    top: 48%;
+    top: 43%;
     border-bottom: 2px solid;
     text-align: center;
 }
@@ -156,7 +156,7 @@ on les re-dimensionnera pour qu'elle prennent la col-12 de la taille du écran c
     color: white;
     position: absolute;
     left: 33%;
-    top: 48%;
+    top: 43%;
     border-bottom: 2px solid;
     text-align: center;
 }
@@ -169,13 +169,65 @@ on les re-dimensionnera pour qu'elle prennent la col-12 de la taille du écran c
     color: white;
     position: absolute;
     left: 38%;
-    top: 48%;
+    top: 43%;
     border-bottom: 2px solid;
     text-align: center;
 }
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*NVLLE SECTION : 9 IMG */
+/* ARRANGER LE TITRE */
+#titre4 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+/*-> RE-DIMENSIONNER LES 9IMG D'UN COUP */
+.recentProducts img {
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    transition-duration: 0.3s;
+}
+
+.recentProducts div {
+    text-align: center;
+}
+
+/* LES [a] QUI SONT SOUS LES IMG */
+.recentProducts a {
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.recentProducts p {
+    font-weight: bold;
+}
+
+.recentProducts .wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.recentProducts .wrapper .row {
+    position: absolute;
+    bottom: -40%;
+    transition-duration: .4s;
+    opacity: 0.9;
+}
+
+.recentProducts .wrapper:hover .row {
+    bottom: 0%;
+}
+
+.recentProducts .wrapper img:hover {
+    transform: scale(1.3);
+}
+
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
