@@ -4,9 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>♦ Emporium ♦</title>
 </head>
 <body>
+    <!-- FOND NOIR POUR ASSOMBRIR LE SITE QUAND LES MODALS SONT LA -->
+    <!-- <div id="fond-noir" class="d-none"></div> -->
+
+    <!-- METTRE LE TITRE EN DEHORS DE LA NAVBAR -->
+    <h1 class="titre1 text-center mt-5">emporium.</h1>
+
+    <!-- DÉBUT DE LA NAV-BAR -->
+    <nav id="navbar" class="navbar navbar-expand navbar-light bg-white py-2 pt-5" sticky='top'>
+
+        <div class="collapse navbar-collapse">
+
+            <ul class="navbar-nav d-block d-md-flex mx-auto">
+                
+                <li class="nav-item ml-5">  <a class="nav-link active" href="#">home</a>        </li>
+                <li class="nav-item ml-5">  <a class="nav-link disabled" href="#">products</a>  </li>
+                <li class="nav-item ml-5">  <a class="nav-link disabled" href="#">blog</a>      </li>
+                <li class="nav-item ml-5">  <a class="nav-link disabled" href="#">elements</a>  </li>
+                <li class="nav-item ml-5">  <a class="nav-link disabled" href="#">about</a>     </li>
+                <li class="nav-item ml-5">  <a class="nav-link disabled" href="#">contact</a>   </li>
+        
+            </ul>
+        
+            <div class="form-inline py-2 mr-4 my-2 my-lg-0">
+                
+                <span class="moonshine p-1 mx-5"></span>
+                <span class="login">login</span>
+            </div>
+      
+        </div>
     
+    </nav>
+    <!-- FIN DE LA NAV-BAR -->
+
+
+    <script src="./src/js/script.js"></script>
 </body>
 </html>
