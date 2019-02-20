@@ -10,14 +10,11 @@
     <title>♦ Emporium ♦</title>
 </head>
 <body>
-    <!-- FOND NOIR POUR ASSOMBRIR LE SITE QUAND LES MODALS SONT LA -->
-    <!-- <div id="fond-noir" class="d-none"></div> -->
-
     <!-- METTRE LE TITRE EN DEHORS DE LA NAVBAR -->
     <h1 class="titre1 text-center mt-5">emporium.</h1>
 
     <!-- DÉBUT DE LA NAV-BAR -->
-    <nav id="navbar" class="navbar navbar-expand navbar-light bg-white py-2 pt-5" sticky='top'>
+    <nav id="navbar" class="navbar navbar-expand navbar-light bg-white py-2 pt-3 text-center">
 
         <div class="collapse navbar-collapse">
 
@@ -34,7 +31,8 @@
         
             <div class="form-inline py-2 mr-4 my-2 my-lg-0">
 
-                <span class="moonshine p-1 mx-5"></span>
+                <button id="NightStyle" class="mr-3">&#127761</button>
+                <button id="DayStyle" class="mr-3">&#128262</button>
                 <span class="login">login</span>
 
             </div>
@@ -60,7 +58,7 @@
                         <p class="p1">A wonderful serenity has taken possession of my entire soul, 
                         like these sweet mornings of spring which I enjoy with my.</p>
                         
-                        <button type="button" class="btnSpecial">sale items</button>
+                        <button type="button" class="btnSaleItems">sale items</button>
                 
                     </div>
 
@@ -442,10 +440,70 @@
                 <h3 class="text-center textProducts">Discover Thousands Of Great Products</h3>
                 <button type="submit" class="btnMore">learn more</button>
             </div>
-            
+
     </section>
     <!-- FIN DE LA SECTION PARALLAX EFFECT -->
     
+    <!-- DÉBUT DU CAROUSEL - PARTIE FASHION PRODUCTS-->
+    <section id=carousel>
+            <div class="container dark-style">
+                <h4 class="gray-style">Hot Fashion Products</h4>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./public/img/products/product-tshitr-white-700x500.jpg" alt="product-tshitr-white-700x500" class="img-fluid">
+                        <div class="p-2">
+                            <a href="#" class="white-style">Luxury Sofa</a>
+                            <p><span></span>$600.00</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="./public/img/products/product-bag-2-700x500.jpg" alt="product-bag-2-700x500" class="img-fluid">
+                        <div class="p-2 row no-gutters">
+                            <div class="col-6 pr-0 mt-3 d-none d-md-inline">
+                                <span class="solde badge badge-pill">Sale!</span>
+                            </div>
+                            <div class="col-12 col-md-6 p-0 dark-style">
+                                <a href="#" class="white-style">Leather Gloves</a>
+                                <p><span>$34.00</span> $27.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="./public/img/products/product-jacket-700x500.jpg" alt="product-jacket-700x500" class="img-fluid">
+                        <div class="p-2">
+                            <a href="#" class="white-style">Luxury Sofa</a>
+                            <p><span></span>$600.00</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="./public/img/products/product-shoes-700x500.jpg" alt="product-shoes-700x500" class="img-fluid">
+                        <div class="p-2">
+                            <a href="#" class="white-style">Luxury Sofa</a>
+                            <p><span></span>$600.00</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="./public/img/products/product-tshitr-700x500.jpg" alt="product-tshitr-700x500" class="img-fluid">
+                        <div class="p-2">
+                            <a href="#" class="white-style">Luxury Sofa</a>
+                            <p><span></span>$600.00</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="./public/img/products/product-bag-700x500.jpg" alt="product-bag-700x500" class="img-fluid">
+                        <div class="p-2">
+                            <a href="#" class="white-style">Luxury Sofa</a>
+                            <p><span></span>$600.00</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="fas fa-circle"></i>
+                <i class="far fa-circle"></i>
+                <i class="far fa-circle"></i>
+                <i class="far fa-circle"></i>
+    </section>
+    <!-- FIN DU CAROUSEL -->
+
     <script src="./src/js/script.js"></script>
 </body>
 </html>
