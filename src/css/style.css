@@ -1,5 +1,9 @@
 /*# sourceMappingURL=style.css.map */
 
+/* CRÉATION D'UNE UNDERBAR QUAND ON DÉPLACERA LA SOURIS DESSUS, j'en essayerai d'en faire une*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 /* PERSONNALISATION DU TITRE CAR ON NE PEUT METTRE L'IMAGE PNG */
 .titre1 {
     font-weight: 800;
@@ -29,7 +33,7 @@ a {
     box-shadow: 0 5px 0 rgb(158, 6, 6);
     color: white;
     font-weight: bold ;
-    padding: 7px 17px 7px 17px;;
+    padding: 7px 17px 7px 17px;
     position: relative;
     text-transform: uppercase;
     border-radius: 20px;
@@ -50,3 +54,129 @@ Visited (:visited): The appearance of a link that the user has clicked on the pa
 when the mouse cursor is not on top of it
 Active (:active): When the link is in the process of being clicked. It might be super quick, 
 but this is when the mouse button has been depressed and before the click is over. */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* SECTION CONTENANT LE .CONTAINER>ROW>COL AVEC LE TITRE+P+BTN ^COL AVEC L'IMG */
+
+/* ON VA D'ABORD ARRANGER LE BACKGROUND-COLOR DE LA SECTION*/
+.shopAtEmporium {
+    background-color: #F3F3F3;
+}
+
+/* MNT ON VA STYLISER LE TITLE : Shop at*/
+.titre2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: rgb(189, 88, 78);
+    visibility: inherit;
+    text-align: left;
+}
+
+/* PUIS LE TITRE JUSTE SOUS CELUI-CI : emporium. */
+.titre3 {
+    font-size: 100px;
+    font-weight: 700;
+    color: black;
+    visibility: inherit;
+    text-align: left;
+}
+
+/* LE PARAGRAPHE SOUS CEUX-CI */
+.p1 {
+    min-width: 540px;
+    max-width: 540px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(144, 144, 144);
+    visibility: inherit;
+    text-align: left;
+}
+
+/* ET ENFIN LE BUTTON */
+.btnSaleItems {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(189, 88, 78);
+    border-radius: 30px;
+    padding: 19px 40px;
+    position: relative;
+    box-shadow: 0 5px 0 #bd584e;
+    border: none ;
+}
+
+.btnSaleItems:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+.btnSaleItems:active {
+    box-shadow: none;
+    top: 5px;
+}
+
+/* ON VA MNT ARRANGER LA DEUXIEME COL, CELLE QUI CONTIENT L'IMG T-SHIRT */
+/* l'image sera contenu dans une sorte de container fluid, ainsi elle se redimensionnera 
+proportionnellement avec le container*/
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ON VA PASSER MNT A LA SECTION SUIVANTE QUI CONTIENDRA LES TROIS COL D'IMG */
+/* on les a mis en col-12, comme sa elles seront responsives, donc une fois la taille de l'écran diminué, 
+on les re-dimensionnera pour qu'elle prennent la col-12 de la taille du écran choisi 
+(lg = large, voir le site de bootstrap pour les tailles et px des autres écrans)*/
+
+/* ON STYLISE LES IMG (DEJA ARRANGER DANS BOOTSTRAP (?) */
+.img-thumbnail {
+    border: none;
+}
+
+/* ON VA METTRE LE TEXTE DANS LES IMAGES*/
+/* LE TXT EST PLUS COURT OU PLUS LONG DONC JLÉ ARRANGERAI SÉPARÉMENT */
+
+/* TXT DE LA PREMIERE IMG*/
+.txtDansImg {
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: none;
+    color: white;
+    position: absolute;
+    left: 29%;
+    top: 48%;
+    border-bottom: 2px solid;
+    text-align: center;
+}
+
+/* TXT DE LE SECONDE */
+.txtDansImg2 {
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: none;
+    color: white;
+    position: absolute;
+    left: 33%;
+    top: 48%;
+    border-bottom: 2px solid;
+    text-align: center;
+}
+
+/* TXT DANS LA DERNIERE IMG */
+.txtDansImg3 {
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: none;
+    color: white;
+    position: absolute;
+    left: 38%;
+    top: 48%;
+    border-bottom: 2px solid;
+    text-align: center;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
