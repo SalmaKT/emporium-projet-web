@@ -443,6 +443,32 @@ img{
     top: 5px;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* NVLLE SECTION AVEC ABOUT US / RECENT POST / TAG*/
+.sectionTag {
+    background-color: #212121;
+}
 
+.sectionTag h3 {
+    font-size: 13px;
+}
+
+.sectionTag a {
+    text-decoration: none;
+}
+
+.sectionTag button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.sectionTag li {
+    color: #6c757d;
+}
+
+.sectionTag li a {
+    color: #6c757d;
+}
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
